@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+
+        ul {
+            width: 400px;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <input type="text" id="product-name" placeholder="Nama Produk">
+    <button id="add-product">Tambah</button>
+    <button id="update-product" disabled>Update</button>
+
+    <h2>Daftar Produk</h2>
+    <ul id="product-list"></ul>
+    <script src="script.js"></script>
+</body>
+
+</html>
